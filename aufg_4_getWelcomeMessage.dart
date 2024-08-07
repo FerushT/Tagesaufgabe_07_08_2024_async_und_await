@@ -14,7 +14,7 @@ Future getWelcomeMessage() async {
   print(welcomeMessage);
 }
 
-// Funktion
+// Funktion zum Abrufen von fetchUserName
 Future<String> fetchUserName() {
   return Future.delayed(Duration(seconds: 3), () {
     return "Mario";
